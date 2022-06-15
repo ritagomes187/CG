@@ -1,0 +1,333 @@
+<world>
+    <camera>
+        <position x="10" y="10" z="10" />
+        <lookAt x="0" y="0" z="0" />
+        <up x="0" y="1" z="0" />
+        <projection fov="60" near="1" far="1000" />
+    </camera>
+    <group>
+        <!--Desenhar o Sol-->
+        <group>
+            <transform>
+                <scale x="5" y="5" z="5" />
+            </transform>
+            <models>
+                <model file="esferaSS.3d" R="1" G="0.25" B="0"/>
+            </models>
+        </group>
+        <!--Desenhar Mercúrio-->
+        <group>
+            <transform>
+                <translate x="10" y="0" z="0"/>
+                <scale x="0.4" y="0.4" z="0.4" />
+            </transform>
+            <models>
+                <model file="esferaSS.3d" R="1" G="0.5" B="0" />
+            </models>
+        </group>
+        <!--Desenhar Venus-->
+        <group>
+            <transform>
+                <translate x="-15" y="0" z="0" />
+            </transform>
+            <models>
+                <model file="esferaSS.3d" R="0.5" G="0.5" B="0"/>
+            </models>
+        </group>
+        <!--Desenhar Terra-->
+        <group>
+            <transform>
+                <translate x="20" y="0" z="0" />
+            </transform>
+            <models>
+                <model file="esferaSS.3d" R="0" G="0.6" B="0.6"/>
+            </models>
+            <!--Desenhar uma Lua-->
+            <group>
+                <transform>
+                    <translate x="0" y="0" z="3" />
+                    <scale x="0.27" y="0.27" z="0.27" />
+                </transform>
+                <models>
+                    <model file="esferaSS.3d" R="0.5" G="0.5" B="0.5" />
+                </models>
+            </group>
+        </group>
+        <!--Desenhar Marte-->
+        <group>
+            <transform>
+                <translate x="-25" y="0" z="0" />
+                <scale x="0.53" y="0.53" z="0.53" />
+            </transform>
+            <models>
+                <model file="esferaSS.3d" R="0.5" G="0" B="0" />
+            </models>
+            <!--Desenhar uma Lua-->
+            <group>
+                <transform>
+                    <translate x="0" y="0" z="-3" />
+                    <scale x="0.1" y="0.1" z="0.1" />
+                </transform>
+                <models>
+                    <model file="esferaSS.3d" R="0.5" G="0.5" B="0.5" />
+                </models>
+            </group>
+            <!--Desenhar uma Lua-->
+            <group>
+                <transform>
+                    <translate x="0" y="0" z="5" />
+                    <scale x="1" y="1" z="1" />
+                </transform>
+                <models>
+                    <model file="esferaSS.3d" R="0.5" G="0.5" B="0.5" />
+                </models>
+            </group>
+        </group>
+        <!--Desenhar Júpiter-->
+        <group>
+            <transform>
+                <translate x="30" y="0" z="0" />
+            </transform>
+            <group>
+                <transform>
+                    <scale x="2" y="2" z="2" />
+                </transform>
+                <models>
+                    <model file="esferaSS.3d" R="0" G="0.2" B="0.2" />
+                </models>
+            </group>
+            <!--Desenhar uma Lua-->
+            <group>
+                <transform>
+                    <translate x="3" y="0" z="0" />
+                    <scale x="0.4" y="0.4" z="0.4" />
+                </transform>
+                <models>
+                    <model file="esferaSS.3d" R="0.5" G="0.5" B="0.5" />
+                </models>
+            </group>
+            <!--Desenhar uma Lua-->
+            <group>
+                <transform>
+                    <translate x="-3" y="0" z="0"/>
+                    <scale x="0.5" y="0.5" z="0.5" />
+                </transform>
+                <models>
+                    <model file="esferaSS.3d" R="0.5" G="0.5" B="0.5" />
+                </models>
+            </group>
+            <!--Desenhar uma Lua-->
+            <group>
+                <transform>
+                    <translate x="0" y="0" z="4" />
+                    <scale x="0.5" y="0.5" z="0.5" />
+                </transform>
+                <models>
+                    <model file="esferaSS.3d" R="0.5" G="0.5" B="0.5" />
+                </models>
+            </group>
+            <!--Desenhar uma Lua-->
+            <group>
+                <transform>
+                    <translate x="0" y="0" z="-4" />
+                    <scale x="0.3" y="0.3" z="0.3" />
+                </transform>
+                <models>
+                    <model file="esferaSS.3d" R="0.5" G="0.5" B="0.5" />
+                </models>
+            </group>
+        </group>
+        <!--Desenhar Saturno-->
+        <group>
+            <transform>
+                <translate x="-35" y="0" z="0"/>
+            </transform>
+            <group>
+                <transform>
+                    <scale x="1.8" y="1.8" z="1.8" />
+                </transform>
+                <models>
+                    <model file="esferaSS.3d" R="0.4" G="0.4" B="0" />
+                </models>
+            </group>
+            <!--Desenhar uma Lua-->
+            <group>
+                <transform>
+                    <translate x="3" y="0" z="0" />
+                    <scale x="0.03" y="0.03" z="0.03" />
+                </transform>
+                <models>
+                    <model file="esferaSS.3d" R="0.5" G="0.5" B="0.5" />
+                </models>
+            </group>
+            <!--Desenhar uma Lua-->
+            <group>
+                <transform>
+                    <translate x="-3" y="0" z="0" />
+                    <scale x="0.03" y="0.03" z="0.03" />
+                </transform>
+                <models>
+                    <model file="esferaSS.3d" R="0.5" G="0.5" B="0.5" />
+                </models>
+            </group>
+            <!--Desenhar uma Lua-->
+            <group>
+                <transform>
+                    <translate x="0" y="0" z="3"  />
+                    <scale x="0.08" y="0.08" z="0.08" />
+                </transform>
+                <models>
+                    <model file="esferaSS.3d" R="0.5" G="0.5" B="0.5" />
+                </models>
+            </group>
+            <!--Desenhar uma Lua-->
+            <group>
+                <transform>
+                    <translate x="0" y="0" z="-3" />
+                    <scale x="0.09" y="0.09" z="0.09" />
+                </transform>
+                <models>
+                    <model file="esferaSS.3d" R="0.5" G="0.5" B="0.5" />
+                </models>
+            </group>
+            <!--Desenhar uma Lua-->
+            <group>
+                <transform>
+                    <translate x="-3" y ="0" z="-3" />
+                    <scale x="0.12" y="0.12" z="0.12" />
+                </transform>
+                <models>
+                    <model file="esferaSS.3d" R="0.5" G="0.5" B="0.5" />
+                </models>
+            </group>
+            <!--Desenhar uma Lua-->
+            <group>
+                <transform>
+                    <translate x="3" y="0" z="3" />
+                    <scale x="0.25" y="0.25" z="0.25" />
+                </transform>
+                <models>
+                    <model file="esferaSS.3d" R="0.5" G="0.5" B="0.5" />
+                </models>
+            </group>
+            <!--Desenhar uma Lua-->
+            <group>
+                <transform>
+                    <translate x="3" y="0" z="-3" />
+                    <scale x="0.11" y="0.11" z="0.11" />º
+                </transform>
+                <models>
+                    <model file="esferaSS.3d" R="0.5" G="0.5" B="0.5" />
+                </models>
+            </group>
+        </group>
+        <!--Desenhar Urano-->
+        <group>
+            <transform>
+                <translate x="40" y="0" z="0" />
+            </transform>
+            <group>
+                <transform>
+                    <scale x="1.2" y="1.2" z="1.2" />
+                </transform>
+                <models>
+                    <model file="esferaSS.3d" R="0.6" G="1" B="1" />
+                </models>
+            </group>
+            <!--Desenhar uma Lua-->
+            <group>
+                <transform>
+                    <translate x="3" y="0" z="0"/>
+                    <scale x="0.25" y="0.25" z="0.25" />
+                </transform>
+                <models>
+                    <model file="esferaSS.3d" R="0.5" G="0.5" B="0.5" />
+                </models>
+            </group>
+            <!--Desenhar uma Lua-->
+            <group>
+                <transform>
+                    <translate x="-3" y="0" z="0" />
+                    <scale x="0.3" y="0.3" z="0.3" />
+                </transform>
+                <models>
+                    <model file="esferaSS.3d" R="0.5" G="0.5" B="0.5" />
+                </models>
+            </group>
+            <!--Desenhar uma Lua-->
+            <group>
+                <transform>
+                    <translate x="0" y="0" z="3"  />
+                    <scale x="0.3" y="0.3" z="0.3" />
+                </transform>
+                <models>
+                    <model file="esferaSS.3d" R="0.5" G="0.5" B="0.5" />
+                </models>
+            </group>
+            <!--Desenhar uma Lua-->
+            <group>
+                <transform>
+                    <translate x="0" y="0" z="-3" />
+                    <scale x="0.2" y="0.2" z="0.2" />
+                </transform>
+                <models>
+                    <model file="esferaSS.3d" R="0.5" G="0.5" B="0.5" />
+                </models>
+            </group>
+            <!--Desenhar uma Lua-->
+            <group>
+                <transform>
+                    <translate x="0" y="0"  z="-3" />
+                    <scale x="0.2" y="0.2" z="0.2" />
+                </transform>
+                <models>
+                    <model file="esferaSS.3d" R="0.5" G="0.5" B="0.5" />
+                </models>
+            </group>
+        </group>
+        <!--Desenhar Neptuno-->
+        <group>
+            <transform>
+                <translate x="-45" y="0" z="0"  />
+            </transform>
+            <group>
+                <transform>
+                    <scale x="1.17" y="1.17" z="1.17" />
+                </transform>
+                <models>
+                    <model file="esferaSS.3d" R="0" G="0" B="0.8" />
+                </models>
+            </group>
+            <!--Desenhar uma Lua-->
+            <group>
+                <transform>
+                    <translate x="3" y="0" z="0" />
+                    <scale x="0.3" y="0.3" z="0.3" />
+                </transform>
+                <models>
+                    <model file="esferaSS.3d" R="0.3" G="0.3" B="0.3" />
+                </models>
+            </group>
+            <!--Desenhar uma Lua-->
+            <group>
+                <transform>
+                    <translate x="-3" y="0" z="0"/>
+                    <scale x="0.3" y="0.3" z="0.3" />
+                </transform>
+                <models>
+                    <model file="esferaSS.3d" R="0.3" G="0.3" B="0.3" />
+                </models>
+            </group>
+            <!--Desenhar uma Lua-->
+            <group>
+                <transform>
+                    <translate x="0" y="0" z="3" />
+                    <scale x="0.3" y="0.3" z="0.3" />
+                </transform>
+                <models>
+                    <model file="esferaSS.3d" R="0.3" G="0.3" B="0.3" />
+                </models>
+            </group>
+        </group>
+    </group>
+</world>
